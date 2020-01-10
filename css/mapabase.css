@@ -8,3 +8,12 @@ body {
     height: 100%;
     width: 100%;
 }
+.titulo{
+    position: absolute;
+    top: 5px;
+    left: 40%;
+    width: auto;
+    z-index: 1000;
+    background-color: aliceblue;
+    padding: 5px;
+}
