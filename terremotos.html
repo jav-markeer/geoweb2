@@ -30,20 +30,21 @@
             
             map.on("load", function () {
 
-                generarPeticionTerremotos();
-                addPopupToMap("terremotos");
+            generarPeticionTerremotos();
+            addPopupToMap("terremotos");
 
             }); // fin load mapa
 
             map.on("zoomend", function () {
 
-                generarPeticionTerremotos();
+            generarPeticionTerremotos();
             });
 
             map.on("moveend", function () {
 
-                generarPeticionTerremotos();
+            generarPeticionTerremotos();
             });
+
 
         } //fin init
  
