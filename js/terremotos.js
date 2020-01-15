@@ -127,4 +127,4 @@ function terremotosGeonamesToGeoJSON(respuestaGeonames){
           map.getCanvas().style.cursor = '';
         });
       
-      }
+    }
